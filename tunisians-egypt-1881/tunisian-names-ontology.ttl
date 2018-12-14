@@ -1,0 +1,133 @@
+@prefix : <http://webprotege.stanford.edu/project/Z7SHhG0Vza6A4AnDioXSd#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@base <http://webprotege.stanford.edu/project/Z7SHhG0Vza6A4AnDioXSd> .
+
+<http://webprotege.stanford.edu/project/Z7SHhG0Vza6A4AnDioXSd> rdf:type owl:Ontology .
+
+#################################################################
+#    Classes
+#################################################################
+
+###  http://prosop.org/schema#ArabicName
+<http://prosop.org/schema#ArabicName> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://prosop.org/schema#Name> ;
+                                      rdfs:label "ArabicName"@en .
+
+
+###  http://prosop.org/schema#ChristianName
+<http://prosop.org/schema#ChristianName> rdf:type owl:Class ;
+                                         rdfs:subClassOf <http://prosop.org/schema#ReligionMarkedName> ;
+                                         rdfs:label "ChristianName"@en .
+
+
+###  http://prosop.org/schema#EgyptianName
+<http://prosop.org/schema#EgyptianName> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://prosop.org/schema#PlaceMarkedName> ;
+                                        rdfs:label "EgyptianName"@en .
+
+
+###  http://prosop.org/schema#FrenchName
+<http://prosop.org/schema#FrenchName> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://prosop.org/schema#Name> ;
+                                      rdfs:label "FrenchName"@en .
+
+
+###  http://prosop.org/schema#Ism
+<http://prosop.org/schema#Ism> rdf:type owl:Class ;
+                               rdfs:subClassOf <http://prosop.org/schema#ArabicName> ;
+                               rdfs:label "Ism"@en .
+
+
+###  http://prosop.org/schema#JewishName
+<http://prosop.org/schema#JewishName> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://prosop.org/schema#ReligionMarkedName> ;
+                                      rdfs:label "JewishName"@en .
+
+
+###  http://prosop.org/schema#Kunya
+<http://prosop.org/schema#Kunya> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://prosop.org/schema#ArabicName> ;
+                                 rdfs:label "Kunya"@en .
+
+
+###  http://prosop.org/schema#Laqab
+<http://prosop.org/schema#Laqab> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://prosop.org/schema#ArabicName> ;
+                                 rdfs:label "Laqab"@en .
+
+
+###  http://prosop.org/schema#MarkedName
+<http://prosop.org/schema#MarkedName> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://prosop.org/schema#Marker> ;
+                                      rdfs:label "MarkedName"@en .
+
+
+###  http://prosop.org/schema#Marker
+<http://prosop.org/schema#Marker> rdf:type owl:Class ;
+                                  rdfs:label "Marker"@en .
+
+
+###  http://prosop.org/schema#MuslimName
+<http://prosop.org/schema#MuslimName> rdf:type owl:Class ;
+                                      rdfs:subClassOf <http://prosop.org/schema#ReligionMarkedName> ;
+                                      rdfs:label "MuslimName"@en .
+
+
+###  http://prosop.org/schema#Name
+<http://prosop.org/schema#Name> rdf:type owl:Class ;
+                                rdfs:label "Name"@en .
+
+
+###  http://prosop.org/schema#Nasab
+<http://prosop.org/schema#Nasab> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://prosop.org/schema#ArabicName> ;
+                                 rdfs:label "Nasab"@en .
+
+
+###  http://prosop.org/schema#Nisba
+<http://prosop.org/schema#Nisba> rdf:type owl:Class ;
+                                 rdfs:subClassOf <http://prosop.org/schema#ArabicName> ;
+                                 rdfs:label "Nisba"@en .
+
+
+###  http://prosop.org/schema#Nom
+<http://prosop.org/schema#Nom> rdf:type owl:Class ;
+                               rdfs:subClassOf <http://prosop.org/schema#FrenchName> ;
+                               rdfs:label "Nom"@en .
+
+
+###  http://prosop.org/schema#OccupationMarkedName
+<http://prosop.org/schema#OccupationMarkedName> rdf:type owl:Class ;
+                                                rdfs:subClassOf <http://prosop.org/schema#MarkedName> ;
+                                                rdfs:label "OccupationMarkedName"@en .
+
+
+###  http://prosop.org/schema#PlaceMarkedName
+<http://prosop.org/schema#PlaceMarkedName> rdf:type owl:Class ;
+                                           rdfs:subClassOf <http://prosop.org/schema#MarkedName> ;
+                                           rdfs:label "PlaceMarkedName"@en .
+
+
+###  http://prosop.org/schema#Prenom
+<http://prosop.org/schema#Prenom> rdf:type owl:Class ;
+                                  rdfs:subClassOf <http://prosop.org/schema#FrenchName> ;
+                                  rdfs:label "Prenom"@en .
+
+
+###  http://prosop.org/schema#ReligionMarkedName
+<http://prosop.org/schema#ReligionMarkedName> rdf:type owl:Class ;
+                                              rdfs:subClassOf <http://prosop.org/schema#MarkedName> ;
+                                              rdfs:label "ReligionMarkedName"@en .
+
+
+###  http://prosop.org/schema#TunisianName
+<http://prosop.org/schema#TunisianName> rdf:type owl:Class ;
+                                        rdfs:subClassOf <http://prosop.org/schema#PlaceMarkedName> ;
+                                        rdfs:label "TunisianName"@en .
+
+
+###  Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi
