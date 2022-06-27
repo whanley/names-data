@@ -1,8 +1,12 @@
 # Egypt law workers, 1941
 
+**Posted**: 2022-06-26
+
+**n=** 1930
+
 This table is derived from _The Egyptian Directory 1941, L’Annuaire Égyptien et l’Indicateur Égyptien_, 55e année, Le Caire, 1941, pp. 110-121, available via [CEAlex](https://bdd.cealex.org/ressources-documentaires/lvr.php).
 
-The TSV file has been quite carefully cleaned. Posted 2022-06-26
+The TSV file has been quite carefully cleaned. 
 
 ## Data dictionary
 1. **person**: full name
